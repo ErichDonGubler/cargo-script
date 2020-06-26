@@ -40,7 +40,7 @@ time = { version = "0.2.16", features = ["std"] }
 toml = "0.5.6"
 
 [target.'cfg(windows)'.dependencies]
-winapi = { version = "0.3.7", features = [
+winapi = { version = "0.3.9", features = [
     "combaseapi",
     "knownfolders",
     "minwindef",
